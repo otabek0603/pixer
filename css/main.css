@@ -1,0 +1,396 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/open-sans-v27-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/open-sans-v27-latin_cyrillic-regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/open-sans-v27-latin_cyrillic-700.woff2') format('woff2'),
+    url('../fonts/open-sans-v27-latin_cyrillic-700.woff') format('woff');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.container{
+    width: 1140px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-inner{
+    padding: 8px 100px;
+    margin-bottom: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-top{
+    display: flex;
+}
+
+.header-top-img{
+    width: 58px;
+    height: 20px;
+    margin: 18px 0;
+    margin-right: auto;
+}
+
+.header-top-img:hover{
+    opacity: 0.8;
+}
+
+.header-top-img:active{
+    opacity: 0.4;
+}
+
+.header-top-link{
+    margin-right: auto;
+}
+
+.header-top-list{
+    display: flex;
+}
+
+.header-top-item{
+    padding: 0 16px;
+    list-style: none;
+}
+
+.header-top-items{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.header-top-items:hover{
+    border-bottom: 1px solid #191919;
+}
+
+.header-top-items:active{
+    color: #FFFFFF;
+    background: rgba(25, 25, 25, 0.7);
+}
+
+.header-top-tel{
+    width: 159px;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    background: #00BAFC;
+    border-radius: 5px;
+}
+
+.main-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title{
+    width: 470px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.main-text{
+    width: 465px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.link{
+    width: 232px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    background: #00BAFC;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.link:hover{
+    opacity: 0.8;
+}
+
+.link:active{
+    opacity: 0.6;
+}
+
+iframe{
+    margin-bottom: 136px;
+}
+
+.service-title{
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+
+.service-item{
+    width: 320px;
+    list-style: none;
+    margin-bottom: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.service-desg{
+    width: 719px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.service-text{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.service-link{
+    color: #000000;
+    padding-top: 24px;
+    padding-left: 59px;
+    text-decoration: none;
+}
+
+.service-img{
+    width: 203px;
+    height: 130px;
+    margin-bottom: 16px;
+}
+
+.service-caption{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.service-heading{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.service-quote{
+    text-align: center;
+    margin-bottom: 112px;
+}
+
+.service-snippet{
+    width: 162px;
+    margin-left: 32px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #00BAFC;
+}
+
+.headline{
+    padding-bottom: 55px;
+}
+
+.work-haer{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.work{
+    width: 719px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.work-subtitle{
+    width: 832px;
+    display: flex;
+    margin-bottom: 58px;
+}
+
+.work-avatar{
+    flex-direction: row-reverse;
+}
+
+.work-img{
+    width: 300px;
+    height: 278px;
+}
+
+.work-demand{
+    vertical-align: middle;
+}
+
+.work-heding{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+
+.work-text{
+    width: 493px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.excerpt{
+    text-align: center;
+}
+
+.form{
+    background: #00BAFC;
+}
+
+.form-top{
+    width: 203px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form-hear{
+    width: 719px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-text{
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form-lead{
+    width: 348px;
+    height: 304px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.form-input{
+    width: 300px;
+    height: 56px;
+    outline: none;
+}
+
+.form-input::placeholder{
+    color: #000000;
+}
+
+footer{
+    background: #191919;
+    padding: 56px 0;
+}
+
+.footer-hear{
+    display: flex;
+}
+
+.footer-lead{
+    margin-right: 100px;
+}
+
+span{
+    width: 149px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-text{
+    width: 320px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.footer-list{
+    list-style: none;
+    margin-right: 80px;
+}
+
+.footer-item{
+    margin-bottom: 8px;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.internet-list{
+    list-style: none;
+}
+
+.internet-link{
+    display: flex;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.internet-img{
+    margin-right: 8px;
+}
